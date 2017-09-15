@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  background-color: sandybrown;
+  border: 20px solid black;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding: 20px;
+
+}
+h2 {
+  text-decoration: underline;
+
+}
+img {
+  border: 10px dotted black;
+  display: block;
+  margin:auto;
+  float:right;
+}
+
+body {
+  background-color: papayawhip;
+  margin-left: 10%;
+  margin-right:10%;
+  margin-bottom: 5%;
+
+}
+
+#starting {
+  font-style: italic;
+  text-align: center;
+  width:650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+ol {
+  line-height: 2;
+}
