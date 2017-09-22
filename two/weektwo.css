@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color:sandybrown;
+  border: 20px solid black;
+  border-radius: 10px/20px;
+}
+
+
+.container {
+  width:850px;
+  margin:0 auto;
+}
+
+h1 {
+  text-align: center;
+  line-height:100px
+  margin:0; }
+
+
+article {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+
+}
+
+h3 {
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  margin:0;
+}
+
+img {
+  margin:20px;
+  border: 5px dotted black;
+  padding: 10px;
+  border-radius: 10px/20px;
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+}
+
+figure {
+  margin:20px;
+  display:flex;
+  align items:right;
+  justify-content: flex-end;
+}
+
+.starting::first-letter {
+  font-size: 70px;
+  float: left;
+  padding: 10px;
+  border: solid 1px black;
+  margin-right: 10px;
+  border-radius: 10px/10px;
+}
+
+body {
+  background-color: papayawhip;
+}
+
+.starting {
+  max-width: width:600px;
+  margin-top: 30px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom: 40px;
+  padding:10px;
+  font-size: 15pt;
+
+  justify-content: flex-end;
+
+}
+
+.ingredients {
+  display:flex;
+  align-items: baseline;
+}
+
+span {
+  font-style: italic;
+}
+ol {
+  line-height: 1.5;
+
+}
+
+ul {
+  line-height:1.5;
+  list-style-type: square;
+}
+
+h4 {
+  margin-right: 0;
+  margin-left: 20px;
+}
