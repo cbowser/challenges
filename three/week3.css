@@ -1,0 +1,140 @@
+html {
+  font-family: "helvetica-neue", helvetica, sans-serif;
+  font-size: 10px;
+  margin:5px;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ee6c4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size:12rem;
+  margin:0;
+  padding:0;
+}
+
+.intro {
+  font-size:2.3em;
+  padding-bottom:20px;
+}
+
+
+
+p {
+  margin:0;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:2px;
+  }
+
+.weight {
+  margin:1px;
+  flex: 1;
+}
+
+.weight1 {
+  background-color: #e0fbfc;
+  flex:1.5;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+.stylelight {
+  font-weight: 100;
+}
+.styleit{
+  font-style:italic;
+}
+.stylebo{
+  font-weight: bold;
+}
+
+
+.weight2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+
+}
+
+.inside {
+  flex:auto;
+  text-align: center;
+  padding:10px;
+}
+
+.inside1 {
+  background-color:#98c1d9;
+  padding-top:23px;
+}
+.inside2 {
+  background-color: #3d5a80;
+  text-transform: capitalize;
+  padding-top:23px;
+}
+
+.weight3{
+  background-color:#f2d0a4;
+}
+
+.copycopy {
+  font-size:2rem;
+  margin: 10px;
+  text-align: left;
+}
+
+.anothercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin:1px;
+
+}
+
+.body {
+  flex:1;
+  text-align: center;
+  height: 120px;
+  padding: 10px;
+
+
+}
+
+.body1 {
+  font-size: 10rem;
+  display: flex;
+  justify-content: space-around;
+  background-color:#f2d0a4;
+}
+
+.body2 {
+  font-size:4rem;
+  background-color:#ee6c4d;
+}
+
+.glyphs {
+  padding-top: 14px;
+}
+
+span {
+  text-transform: capitalize;
+}
+
+footer {
+  font-size: 1.2rem;
+
+}
