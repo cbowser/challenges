@@ -7,16 +7,47 @@ header {
   border-radius: 10px/20px;
 }
 
-
-.container {
-  width:850px;
-  margin:0 auto;
+body {
+  background-color: papayawhip;
 }
+
 
 h1 {
   text-align: center;
-  line-height:100px
+  padding:20px;
   margin:0; }
+
+.in1 {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  margin:20px;
+  border: 5px double black;
+  padding:10px;
+  border-radius:10px/20px;
+}
+
+.starting {
+  max-width:650px;
+  font-size:15pt;
+}
+
+
+.starting::first-letter {
+  font-size: 70px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px/10px;
+}
+
+.ingredients {
+  display:flex;
+  justify-content: center;
+}
+
+
 
 
 article {
@@ -34,48 +65,6 @@ h3 {
   margin:0;
 }
 
-img {
-  margin:20px;
-  border: 5px dotted black;
-  padding: 10px;
-  border-radius: 10px/20px;
-  display: flex;
-  align-items: right;
-  justify-content: flex-end;
-}
-
-figure {
-  margin:20px;
-  display:flex;
-  align items:right;
-  justify-content: flex-end;
-}
-
-.starting::first-letter {
-  font-size: 70px;
-  float: left;
-  padding: 10px;
-  border: solid 1px black;
-  margin-right: 10px;
-  border-radius: 10px/10px;
-}
-
-body {
-  background-color: papayawhip;
-}
-
-.starting {
-  max-width: width:600px;
-  margin-top: 30px;
-  margin-left:30px;
-  margin-right:30px;
-  margin-bottom: 40px;
-  padding:10px;
-  font-size: 15pt;
-
-  justify-content: flex-end;
-
-}
 
 .ingredients {
   display:flex;

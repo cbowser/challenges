@@ -25,8 +25,6 @@ h1 {
   padding-bottom:20px;
 }
 
-
-
 p {
   margin:0;
 }
@@ -49,11 +47,10 @@ p {
   font-size: 5rem;
   text-align: center;
   line-height: 1.5;
-
 }
 
 .stylelight {
-  font-weight: 100;
+  font-sweight: 100;
 }
 .styleit{
   font-style:italic;
@@ -67,7 +64,6 @@ p {
   display: flex;
   flex-direction: column;
   font-size: 3rem;
-
 }
 
 .inside {
@@ -80,6 +76,7 @@ p {
   background-color:#98c1d9;
   padding-top:23px;
 }
+
 .inside2 {
   background-color: #3d5a80;
   text-transform: capitalize;
@@ -102,7 +99,6 @@ p {
   justify-content: space-around;
   align-items: center;
   margin:1px;
-
 }
 
 .body {
@@ -110,8 +106,6 @@ p {
   text-align: center;
   height: 120px;
   padding: 10px;
-
-
 }
 
 .body1 {
@@ -136,5 +130,4 @@ span {
 
 footer {
   font-size: 1.2rem;
-
 }
