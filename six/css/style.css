@@ -1,0 +1,9 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+body {
+  background-color: yellow;
+}
+h1 {
+  color:blue;
+}

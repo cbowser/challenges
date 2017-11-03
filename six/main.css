@@ -1,0 +1,141 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+
+.star {
+  display:inline-block;
+  transtion: all 1s ease-out;
+}
+
+.pinky:hover {
+  transform: skewX(50deg);
+}
+
+
+.orange:hover {
+  transform: scale(1.5);
+}
+
+.blue:hover {
+  transform: rotateZ(45deg);
+}
+
+a {text-decoration: none;
+color:black;}
+
+
+.button {
+  border: solid 3px black;
+  transition: all 1s ease;
+}
+
+.button:hover {
+  border: dotted 5px pink;
+  border-radius:25px;
+}
+
+
+.press {
+  transition: all 0.5s ease;
+  background-color:pink;
+  padding:10px;
+
+}
+
+.press:hover {
+  background-color:blue;
+  color:white;
+}
+
+
+.grow {
+  width:25%;
+  background-color: teal;
+  transition: all 2s ease;
+  transition-timing-function: steps(4,end);
+}
+
+.grow:hover {
+  width:50%;
+  background-color: orange;
+}
+
+
+.second {
+
+  transition:all 1s linear;
+}
+
+.second:hover {
+  text-shadow: 3px 3px orange;
+}
+
+.stretch {
+  width:25%;
+  background-color:purple;
+  transition:all 2s;
+  transition-timing-function: linear;
+}
+
+.stretch:hover {
+  width:50%;
+  background-color: yellow;
+}
+
+.move {
+  padding:5px;
+  background-color:purple;
+  transition:all 1s ease;
+}
+
+.move:hover {
+  padding:40px;
+  background-color: teal;
+}
+
+
+.rainbow {
+  animation-name: rainbow;
+  animation-duration: 10s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0% {background-color:red;}
+  25% {background-color:orange;}
+  50% {background-color:yellow;}
+  75% {background-color:green;}
+  100% {background-color: blue;}
+
+}
+
+.heart
+{animation-name: heart;
+animation-duration: 400ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: alternate;}
+
+
+@keyframes heart {
+  0% {transform: scale(1.5);}
+  50% {transform: scale(1.75);}
+  100% {transform: scale(2);}
+
+}
+
+.space {
+  animation-name: space;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes space {
+  0% {letter-spacing: 10px}
+  50% {letter-spacing: 20px}
+  100% {letter-spacing: 50px}
+
+}
